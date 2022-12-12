@@ -1,0 +1,36 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+i{
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  
+}
+h1{
+  text-align: center;
+  font-size: 2em;
+}
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+  margin: 20px;
+  min-width: 200px;
+  box-shadow: 0 0  5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.col:hover {
+  transform: scale(1.05);
+}
+
+.col img {
+  width: 10%;
+}
